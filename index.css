@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.logo-img-sp{
+    width:200px
+}
+.color-nav-bar{
+    background-color:#c40909!important;
+}
+@media (max-width:426px) {
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: center!important;
+    }
+    .custom-div-leaning{
+        width: 100%!important;
+    }
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+
+}
+.bg-custome{
+    background:url(./img/homem-aranha-no-way-home-doutor-estranho-e-homem-aranha-papel-de-parede-1920x1200_6.jpg);
+    background-position: center center;
+    background-size: cover;
+    width:100%;
+    height:100%
+}
+
+.main-custom{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 5.7rem;
+}
+
+.custom-div-leaning{
+    color:white!important;
+    padding-bottom: 10rem!important;
+}
+
+.custom-h1{
+    background-color: #c40909;
+    padding: 1rem;
+}
+
+.custom-p{
+    background-color: #c40909;
+    color: white;
+    padding: 0.5rem;
+    max-width: 540px;   
+}
